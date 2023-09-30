@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cee0fc;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.booklist {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+  margin-top: 22vh;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 15vw;
+  height: 25vw;
+  background-color: #1e1e20;
+  padding: 3vh 1vw;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5vh;
+  color: aliceblue;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+.author {
+  text-align: center;
+  font-size: 1.1vw;
+}
+
+.book img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .booklist {
+    flex-wrap: wrap;
+  }
+}
