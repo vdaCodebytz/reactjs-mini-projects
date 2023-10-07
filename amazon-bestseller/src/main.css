@@ -12,6 +12,11 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.heading {
+  margin-top: 5vw;
+  text-align: center;
+}
+
 .booklist {
   display: flex;
   align-items: center;
