@@ -1,10 +1,11 @@
+import Loading from "./Loading";
 import useFetchData from "./config";
 
 const Projects = () => {
   const { isLoading, data } = useFetchData();
 
   if (isLoading) {
-    return <h5>Loading</h5>;
+    return <Loading />;
   }
 
   console.log(data);
